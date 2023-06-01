@@ -49,6 +49,7 @@ if __name__ == "__main__":
     st.header(text)
 
     fig, ax = plt.subplots(figsize=(5, 7))
+    plt.ylim(0,3)
 
     l, = plt.plot([], [], 'r-')
     #plt.title('Average years of tertiary schooling in ')
